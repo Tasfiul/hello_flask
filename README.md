@@ -18,5 +18,6 @@ the tutorial project from flask documentation.
 1. Make sure your virtual environment is activated.
 2. Run the main application file:
    ```bash
-   python webapp.py
+   $env:FLASK_APP = "hello_app.webapp:app"
+   flask run
    ```
